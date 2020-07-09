@@ -1,0 +1,462 @@
+/*  #e6545b             font-family: Montserrat   */
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/*  Header Section Navbar */
+/* container */
+#headBlock{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.container{
+    background-color: #d84f57;
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+.leftMenu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightMenu{
+    width: 50%;
+    display: flex;
+}
+.leftMenu .image{
+    width: 18%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.leftMenu .Menu{
+    width: 82%;
+    margin: 0 0 0 30%;
+}
+.leftMenu .image img{
+    width: 80px;
+    height: 49px;
+    margin: 2% 0 0 43.3%;
+}
+.Menu ul{
+    display: flex;
+}
+.leftMenu .Menu ul li{
+    color: #fff;
+    list-style: none;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    flex-wrap: wrap;
+    
+}
+
+.rightMenu ul{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0; 
+    margin: 0 5% 0 0;
+    
+    
+}
+.rightMenu ul li{
+    list-style: none;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 4%;
+    flex-wrap: wrap;
+}
+
+.leftMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.rightMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.leftMenu ul li a:hover,
+.rightMenu ul li a:hover{
+    border-bottom: 3px solid #eee;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+
+/* Search Box CSS */
+#headBlock .searchBox{
+    display: flex;
+    height: 39px;
+    position: relative;
+    left: 30%;
+}
+/* right menu icons */
+.rightMenu .arrow-down{
+    color: #eee;
+    
+}
+.rightMenu .user-circle{
+    color: #eee;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+/* Mid Section for background image and search boxes */
+
+#midSection {
+    background-image: url('../images/safetyplus1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 59%;
+    position: relative;
+    top: -5%;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Search Block */
+#searchBusesBlock{
+    /* display: flex; */
+    position: absolute;
+    top: 50%;
+    left: 29%;
+}
+
+#searchBusesBlock article input {
+    /* border: none;
+    align-items: center;
+    justify-content: center; */
+
+    border: none;
+    /* border-right: 1px solid black; */
+    background-color: white;
+    color: rgb(124, 121, 121);
+    /* box-shadow: 1px 1px 2px 1px lightgrey ; */
+    display: inline-block;
+    height: 40px;
+    padding: 14px;
+    padding-right: 0px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+#searchBusesBlock article button{
+    border: none;
+    background-color: #d75057;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/*  Icon's css */
+
+.city_icon{
+    position: relative;
+}
+.city_icon i{
+    position: absolute;
+    z-index: +1;
+    left: 6px;
+    top: 2px;
+    font-size: large;
+}
+
+/* Covid Section */
+#covidBlock{
+    width: 40%;
+    background-color: #fef5e4;
+    padding: 0%;
+   margin: 0;
+   position: relative;
+   margin-top: -6%;
+   left: 30%;
+   z-index: -1;
+    
+}
+#covidBlock article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* first image div */
+#covidBlock div:nth-child(1){
+    flex: 1;
+    width: 50%;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 0;
+}
+#covidBlock div img{
+    height: 100%;
+    width: 100%;
+}
+/* content div */
+#covidBlock div:nth-child(2){
+    flex: 3;
+}
+#covidBlock div p:nth-child(1){
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: small;
+}
+#covidBlock div p:nth-child(2){
+    font-weight: lighter;
+    font-size: small;
+}
+/* button div and button css */
+#covidBlock div:nth-child(3){
+    display: flex;
+    flex: 2;
+    padding-left: 0%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 2%;
+    margin-bottom: -6%;
+}
+
+#covidBlock div button{
+    padding: 0;
+    margin: 0;
+    background-color: #d64d5a;
+    color: #eee;
+    font-size: 12px;
+    border: none;
+    width: 80%;
+    height: 25px;
+    border-radius: 2%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+}
+/*  End of Covid Block */
+
+/* Introducing on time guarantee block */
+#IntroducingOnTimeGuaranteeBlock{
+    width: 75%;
+    height: 60%;
+    border:  1px solid black;
+    display: flex;
+    margin: 5% 0 2% 11%;
+}
+#IntroducingOnTimeGuaranteeBlock article{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Wrapper of two div  */
+section article .inside_Top_Block{
+    width: 100%;
+    height: 40%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+section article .inside_Top_Block .imageBlock{
+    margin: 3% 0 0 3%;
+}
+section article .inside_Top_Block .imageBlock img{
+    width: 80%;
+    height: 90%;
+}
+section article .inside_Top_Block div:nth-child(2){
+    margin: 1% 0 0 0 ;
+}
+section article .inside_Top_Block div:nth-child(2) p:nth-child(1){
+    font-size: 30px;
+}
+section article .inside_Top_Block div:nth-child(2) p:nth-child(2){
+    font-size: 22px;
+    margin: -3% 0 0 0 ;
+    padding: 0; 
+}
+
+/* above div part finished */
+
+/* 2nd Div with two images and embedded text */
+#IntroducingOnTimeGuaranteeBlock article #embedText{
+    margin: 1% 0 0 12%;
+    border: none;
+}
+
+/*  Last # div in a row */
+#IntroducingOnTimeGuaranteeBlock article .container{
+    border: none;
+    margin: 2% 0 0 12%;
+    box-sizing: border-box;
+    width: 86%;
+    background-color: #fff;
+}
+#IntroducingOnTimeGuaranteeBlock article .container div p:nth-child(1){
+    font-weight: bolder;
+    font-size: large;
+    color: #727ceb;
+}
+#IntroducingOnTimeGuaranteeBlock article .container div p:nth-child(2){
+    font-weight: bolder;
+    font-size: medium;
+}
+#IntroducingOnTimeGuaranteeBlock article .container div p:nth-child(3){
+    font-weight: normal;
+    margin: -4% 0 0 0;
+}
+/* Last block finished here */
+
+/* Bus tracking block */
+#TrackBus{
+    width: 75%;
+    height: 70%;
+    background-color: #e8ecef;
+    margin: 4% 0 0 11% ;
+}
+/* working on the first container */
+#TrackBus article .container1{
+    display: flex;
+    margin: 3% 0 0 4%;
+    padding: 2%;
+    box-sizing: border-box;
+    flex-direction: row;
+
+}
+#TrackBus article .container1 div:nth-child(2){
+    margin: 0 0 0 6%;
+
+}
+#TrackBus article .container1 div .p1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#TrackBus article .container1 div button{
+    border: 1px solid #4c8fdb;
+    color: #4c8fdb;
+    height: 13%;
+    width: 22%;
+    margin: 4% 0 0 0;
+}
+
+#TrackBus article .Hr{
+    width: 75%;
+    margin: 4% 0 0 12%;
+}
+
+/* contrainer 2 that has 3 div in it */
+#TrackBus article .container2{
+    width: 75%;
+    margin: 1% 0 0 11%;
+    display: flex;
+    flex-direction: row;
+}
+#TrackBus article .container2 div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#TrackBus article .container2 div p:nth-child(1){
+    font-size: medium;
+    font-weight: lighter;
+    letter-spacing: 1.2px;
+
+}
+#TrackBus article .container2 div p:nth-child(2){
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #da4d52;
+    margin: -5% 0 0 0;
+}
+#TrackBus article .container2 div p:nth-child(3){
+    padding: 0 0 0 0 ;
+}
+
+/* Tracking bus block ended */
+
+/* OTG-Block */
+
+#OTG-Block{
+    width: 100%;
+    height: 80%;
+    border: none;
+    margin: 3% 0 0 0;
+}
+#OTG-Block article{
+    display: flex;
+    /* background-image: url(../images/city_scape_app_download.png); */
+}
+#OTG-Block article div:nth-child(1){
+    margin: 3% 0 0 14%;
+    width: 26.5%;
+}
+
+#OTG-Block article div p:nth-child(1){
+    font-weight: bolder;
+    font-size: 30px
+}
+#OTG-Block article div .wrapper{
+    margin: 0 0 1% 0;
+    
+}
+#OTG-Block article div .wrapper select{
+    width: 17%;
+}
+#OTG-Block article div .wrapper input{
+    width: 53%;
+}
+#OTG-Block article div .wrapper button{
+    margin: 3% 0 0 20%;
+    background-color: #d84e55;
+    color: #fff;
+    border: none;
+    height: 28px;
+    padding-bottom: .5%;
+    border-radius: 4%;
+    letter-spacing: .2px;
+}
+
+/* android image  */
+ /* #OTG-Block article div:nth-child(2){
+    
+}  */
+
+#OTG-Block article div img{
+    margin: 15% 0 0 50% ;
+    width: auto;
+    height: 70%;
+    
+}
+
+#OTG-Block .city-scape{
+    opacity: 0.2;
+    width: 70%;
+    position: relative;
+    top: -113%;
+    z-index: -1;
+}
+
+/* Android block completed */
+
+/* We Promise to Deliver Block */
+#promise{
+    background-color: #ededed;
+
+}
